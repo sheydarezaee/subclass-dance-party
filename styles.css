@@ -5,11 +5,15 @@ body{
   margin: 0px;
   background-color:#444;
   font-size: 18px;
+  background-image: url("https://ubistatic19-a.akamaihd.net/resource/en-AU/game/justdance/jd-portal/Header_JDU_Desktop_Big3_272495.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title, .addDancerButton, .lineDancers{
   padding:5px 12px;
   float:right;
 }
@@ -21,7 +25,28 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
+  border:100px solid yellow;
+  border-radius:100px;
   position:absolute;
+  animation-name: slidein;
 }
+
+@keyframes slidein{
+  from {border: 100px solid yellow;}
+  to {border:200px solid green;}
+}
+
+.dancer1{
+  content: url('http://i1.kym-cdn.com/photos/images/masonry/000/059/601/spiderman116_spideydancing1.gif');
+  position: absolute;
+
+}
+.dancer2{
+  content: url('https://img.clipartfest.com/e90aa8c86cbea53eab13cc6168196938_bounce-ball-gif-free-cliparts-free-clipart-bouncing-ball_147-275.gif');
+  position: absolute;
+}
+
+.lineup{
+
+}
+
