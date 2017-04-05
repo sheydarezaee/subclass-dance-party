@@ -28,25 +28,25 @@ body, a:link, a:visited, a:active{
   border:100px solid yellow;
   border-radius:100px;
   position:absolute;
-  animation-name: slidein;
+/*  animation-name: slidein;*/
 }
 
-@keyframes slidein{
+/*@keyframes slidein{
   from {border: 100px solid yellow;}
   to {border:200px solid green;}
-}
+}*/
 
 .dancer1{
   content: url('http://i1.kym-cdn.com/photos/images/masonry/000/059/601/spiderman116_spideydancing1.gif');
   position: absolute;
-
 }
+
+/*.dancer1: hover{
+  transform: rotate(360deg);
+}
+*/
+
 .dancer2{
   content: url('https://img.clipartfest.com/e90aa8c86cbea53eab13cc6168196938_bounce-ball-gif-free-cliparts-free-clipart-bouncing-ball_147-275.gif');
   position: absolute;
 }
-
-.lineup{
-
-}
-

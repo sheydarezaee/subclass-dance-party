@@ -10,4 +10,3 @@ makeBouncyDancer.prototype.step = function() {
   this.$node.fadeToggle(2000);
   makeDancer.prototype.step.call(this);
 }
-

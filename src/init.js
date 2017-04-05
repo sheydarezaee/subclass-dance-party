@@ -32,10 +32,35 @@ $(document).ready(function() {
   });
 
   $('.lineDancers').on('click', function (event) {
-    console.log('1')
     for (var i = 0; i < window.dancers.length; i++) {
       window.dancers[i].lineup();
     }
   })
+
+  $('body').click(function () {
+    $('.dancer1').fadeToggle('slow');
+  // $(window.dancers[i]).on('click', function (event) {
+  //   $(this).fadeToggle('fast');
+  //}
+});
+
+  // $('body').on('click', function (event) {
+  //   console.log('1');
+  //   $('.dancer1').rotate({transform: '360deg'});
+  // });
+
+
+//   $(".dancer").rotate({bind:{
+//     click: function(){
+
+//     for (var i = 0; i < window.dancers.length; i++) {
+//       window.dancers[i].rotate({
+//       angle: 0,
+//       animateTo:180
+//       })
+//     }
+//     }
+//   }
+// })
 });
 

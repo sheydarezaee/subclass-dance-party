@@ -12,6 +12,13 @@ makePopDancer.prototype.step = function() {
   makeDancer.prototype.step.call(this);
 }
 
+// makePopDancer.prototype.rotate = function () {
+//   var rot = {
+//   	transform: 'rotate(360deg)'
+//   }
+//   this.$node.css(rot);
+// }
+
 
 
 /*
